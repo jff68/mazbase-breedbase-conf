@@ -5,7 +5,9 @@ up and running.
 
 
 ## Start breedbase with docker-compose
+```bash
 docker-compose up -d
+```
 
 ## Enter breedbase_web
 docker exec -it breedbase_web bash
