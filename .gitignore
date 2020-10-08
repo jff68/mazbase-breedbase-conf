@@ -1,0 +1,8 @@
+images/*
+pgdata/*
+repos/*
+tmp/*
+cluster/*
+archive/*
+cache/*
+cluster/*
