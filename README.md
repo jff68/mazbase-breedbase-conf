@@ -43,7 +43,7 @@ cd db
 
 ## Load ontologies
 ```bash
-perl ~/cxgn/Chado/chado/bin/gmod_load_cvterms.pl -H breedbase_db -D breedbase_fresh -d Pg -s LSU_01 -v -u -r postgres -n lsuRice -p postgres ~/cxgn/famosolabbase/ontology/lsu_rice.obo 
+perl ~/cxgn/Chado/chado/bin/gmod_load_cvterms.pl -H breedbase_db -D breedbase_fresh -d Pg -s LSU_01 -v -u -r postgres -n lsuRice -p postgres ~/cxgn/famosolabbase/ontology/lsu_rice2.obo 
 ```
 
 ## Delete defualt ontologies
