@@ -1,9 +1,12 @@
 #!/bin/bash
+# Pulls git repos needed for development and custom famosolab mason
+
 
 mkdir repos
 
 # Mason website skins
 git clone git@github.com:ch728/famosolab-breedbase.git repos/famosolab-breedbase
+
 # main code
 git clone https://github.com/solgenomics/cxgn-corelibs.git repos/cxgn-corelibs
 git clone https://github.com/solgenomics/sgn.git  repos/sgn
