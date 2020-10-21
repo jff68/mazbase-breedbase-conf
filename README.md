@@ -1,4 +1,4 @@
-# Breedbase configuration fil
+# Breedbase configuration files
 Configs specificfor the LSU rice breeding program instance of Breedbase. Below are the commands needed to get the LSU breedbase instance
 up and running.
 
