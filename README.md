@@ -1,5 +1,5 @@
 # Breedbase configuration files
-Configs specificfor the LSU rice breeding program instance of Breedbase. Below are the commands needed to get the LSU breedbase instance
+Configuration files specific for the LSU rice breeding program instance of Breedbase. Below are the commands needed to get the LSU breedbase instance
 up and running.
 
 
@@ -37,7 +37,7 @@ psql -U postgres -h breedbase_db -d breedbase_fresh -f t/data/fixture/empty_fixt
 ## Run patches on 'breedbase_fresh'
 ```bash
 cd db
-./run_all_patches.pl -u web_usr -p postgres  -h breedbase_db -d breedbase_fresh -e janedoe
+./run_all_patches.pl -u postgres -p postgres  -h breedbase_db -d breedbase_fresh -e janedoe
 ```
 
 ## Load ontologies
