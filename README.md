@@ -1,6 +1,5 @@
-# breedbase_dockerfile
-The Dockerfile for [breeDBase](https://github.com/solgenomics/sgn) with configs specific
-for the LSU rice breeding program. Below are the commands needed to get the LSU breedbase instance
+# Breedbase configuration fil
+Configs specificfor the LSU rice breeding program instance of Breedbase. Below are the commands needed to get the LSU breedbase instance
 up and running.
 
 
