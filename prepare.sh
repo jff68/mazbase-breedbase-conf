@@ -1,5 +1,5 @@
 #!/bin/bash
-# Pulls git repos needed for development and custom famosolab mason
+# Pulls git repos needed for development and custom lsurice mason
 
 
 mkdir repos
@@ -14,8 +14,6 @@ git clone https://github.com/solgenomics/Phenome.git repos/Phenome
 git clone https://github.com/solgenomics/sgn-devtools.git repos/sgn-devtools
 git clone https://github.com/solgenomics/solGS.git repos/solGS
 git clone https://github.com/solgenomics/DroneImageScripts.git repos/DroneImageScripts
-git clone --branch 4.1.0 --depth 1 https://github.com/opencv/opencv repos/opencv
-git clone --branch 4.1.0 --depth 1 https://github.com/opencv/opencv_contrib repos/opencv_contrib
 
 # local libs
 git clone https://github.com/solgenomics/perl-local-lib repos/local-lib
